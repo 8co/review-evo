@@ -12,7 +12,14 @@
     "tech-debt",
     "conventions",
     "codebase-health",
-    "devtools"
+    "devtools",
+    "ai-agents",
+    "pr-review",
+    "pull-request",
+    "static-analysis",
+    "security",
+    "test-coverage",
+    "autonomous"
   ],
   "license": "MIT",
   "author": {
