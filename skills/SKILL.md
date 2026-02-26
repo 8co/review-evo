@@ -55,7 +55,7 @@ git log --oneline -50
 
 **Contributor breakdown:**
 ```
-git shortlog -sn --no-merges --since="6 months ago"
+git log --since="6 months ago" --format="%an" | sort | uniq -c | sort -rn
 ```
 
 **High-churn files (most frequently modified):**
