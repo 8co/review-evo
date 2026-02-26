@@ -1,0 +1,31 @@
+{
+  "name": "review-evo",
+  "version": "0.1.0",
+  "tagline": "Self-improving code reviewer that learns your codebase",
+  "description": "Analyzes git history, spots churn hotspots, learns team conventions, and builds a persistent knowledge base that sharpens every review. No dependencies, no API keys — just git and your agent's built-in tools.",
+  "category": "Development Tools",
+  "tags": [
+    "code-review",
+    "self-improving",
+    "git-analysis",
+    "code-quality",
+    "tech-debt",
+    "conventions",
+    "codebase-health",
+    "devtools"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "opentangl",
+    "github": "https://github.com/8co"
+  },
+  "repository": "https://github.com/8co/review-evo",
+  "homepage": "https://github.com/8co/review-evo",
+  "support": {
+    "issues": "https://github.com/8co/review-evo/issues"
+  },
+  "requires": {
+    "bins": ["git"]
+  },
+  "entry": "SKILL.md"
+}
