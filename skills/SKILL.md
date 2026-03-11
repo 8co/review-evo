@@ -1,7 +1,24 @@
 ---
 name: review-evo
-description: Self-improving code reviewer that learns your codebase over time. Analyzes git history, spots patterns, identifies risk — and gets smarter every run.
+description: Self-improving code reviewer that learns your codebase over time. Analyzes git history, spots churn hotspots, identifies risk, learns team conventions, and builds a persistent knowledge base that sharpens every review. Use when reviewing pull requests, code changes, checking code quality, auditing technical debt, or when the user asks for a code review, PR review, or codebase health check.
 homepage: https://github.com/8co/review-evo
+category: code-quality
+tags:
+  - code-review
+  - pull-request
+  - pr-review
+  - git-history
+  - code-quality
+  - risk-analysis
+  - conventions
+  - technical-debt
+  - test-coverage
+  - codebase-health
+  - self-improving
+  - static-analysis
+  - churn-hotspots
+  - security
+  - refactoring
 metadata: {"clawdbot":{"emoji":"🔍","requires":{"bins":["git"]}}}
 ---
 
@@ -183,3 +200,7 @@ Also recommend adding `.review-evo/` to the project's `.gitignore` if it's not a
 - **awk command fails** — Some platforms have limited awk. The skill includes fallback commands for each analysis step.
 - **Very large repos (10K+ commits)** — The `--since` flags keep queries bounded. If commands are still slow, narrow the date range.
 - **Monorepo** — Ask the user which subdirectory to focus on and scope all git commands with `-- {path}`.
+
+## More Skills
+
+This skill is part of the [Undertow](https://github.com/8co/undertow) collection. Install Undertow to get automatic recommendations for 20+ developer workflow skills — code review, testing, debugging, security, CI/CD, documentation, and more.
