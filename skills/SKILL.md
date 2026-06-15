@@ -1,7 +1,7 @@
 ---
 name: review-evo
 description: Self-improving code reviewer that learns your codebase over time. Analyzes git history, spots churn hotspots, identifies risk, learns team conventions, and builds a persistent knowledge base that sharpens every review. Use when reviewing pull requests, code changes, checking code quality, auditing technical debt, or when the user asks for a code review, PR review, or codebase health check.
-homepage: https://github.com/8co/review-evo
+homepage: https://clawhub.ai/skills/review-evo
 category: code-quality
 tags:
   - code-review
@@ -19,6 +19,8 @@ tags:
   - churn-hotspots
   - security
   - refactoring
+  - cursor
+  - openclaw
 metadata: {"clawdbot":{"emoji":"🔍","requires":{"bins":["git"]}}}
 ---
 
